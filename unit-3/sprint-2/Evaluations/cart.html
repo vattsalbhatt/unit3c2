@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="style/cart.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <div id="nav">
+        <p onclick="index()">Menu</p>
+        <p onclick="login()">Login</p>
+        <p onclick="signup()">SignUp</p>
+      </div>
+      <!-- Navbar Ends -->
+      <div id="cartTotal">
+        <button id="cartValue" onclick="checkOut()">Total Value: 0</button>
+      </div>
+      <div id="items"></div>
+    </div>
+  </body>
+</html>
+<script src="scripts/cart.js"></script>

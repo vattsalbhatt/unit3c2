@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>checkOut</title>
+    <link rel="stylesheet" href="style/checkout.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <div id="nav">
+        <p onclick="index()">Menu</p>
+        <p onclick="login()">Login</p>
+        <p onclick="signup()">SignUp</p>
+      </div>
+      <!-- Navbar Ends -->
+      <div id="address">
+        <form action="" id="myForm">
+          <label for=""> House/Building/Block </label>
+          <input type="text" required />
+          <label for="">Landmark</label>
+          <input type="text" required />
+          <label for="">Area</label>
+          <input type="text" required />
+          <label for="">City</label>
+          <input type="text" required />
+          <label for="">Pin Code</label>
+          <input type="text" required />
+          <label for="">Mobile</label>
+          <input type="tel" required />
+          <select>
+            <option value="cod">COD only</option>
+            <option value="online" style="text-decoration: line-through">
+              C̶a̶r̶d̶/̶U̶P̶I̶
+            </option>
+          </select>
+          <input type="submit" name="" id="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="scripts/checkout.js"></script>
